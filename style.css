@@ -1,0 +1,47 @@
+
+body{
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.button-container-next{
+    display: flex;
+    justify-content: start;
+}
+.button-container-prev{
+    display: flex;
+    justify-content: end;
+}
+
+.slider{
+    width: 400px;
+    height: 220px;
+    margin: 0 auto;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.slider-line{
+    position: relative;
+    display: flex;
+    left: 0px;
+    transition: all ease-out 0.5s;
+}
+
+.item{
+    max-width: 400px;
+}
+.slider-next{
+    background-color: white;
+}
+
+.slider-prev{
+    background-color: white;
+}
