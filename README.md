@@ -1,0 +1,1 @@
+# this simple slider on JS.
